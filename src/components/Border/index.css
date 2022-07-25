@@ -1,0 +1,65 @@
+.border {
+    border: 1px solid gray;
+    border-radius: 15px;
+    height: 250px;
+    width: 500px;
+    margin: 50px auto;
+    background: no-repeat black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+}
+
+.cityName{
+    margin: 5px;
+    font-size: 24px;
+}
+
+.currentTemperature{
+    margin: 5px;
+    font-size: 32px;
+}
+
+.container-items{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.currentIcon {
+    width: 40px;
+}
+
+.currentWeather {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Clouds{
+    background: no-repeat url('https://www.perfectstock.ru/files/preview/1280x854/0e29b57cad7a296cd8b07a52dde8423a-l-21580471190fs6gppyzu07rdhkq0haxiva7pnthiasljyjuo3wysli1a5gh8zcftxctghojman5tdd1bbwulznesequ7vens9mdqjwkqiakzr7l.jpg');
+}
+
+.Clear{
+    background: no-repeat url('https://lh3.googleusercontent.com/CnHg3skxcIhFKh5oE_ZV61x-a-tqWKIWC04a4hWkmQymuBRGlp3Kgnr_d3bEj-jgvPZAM1kh4nkpALUr0bDaUJdzPQ=w640-h400-e365-rj-sc0x00ffffff');
+}
+
+.up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+.arrow-icon-up {
+    width: 10px;
+    height: 10px;
+    transform: rotate(90deg);
+}
+
+.arrow-icon-down {
+    width: 10px;
+    height: 10px;
+    transform: rotate(-90deg);
+}
+
